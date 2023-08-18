@@ -8,7 +8,7 @@ const UsingRef = () => {
   React.useEffect(() => {}, []);
 
   const handleClick = (day) => {
-    console.log("scroll to ", dayRef);
+    
     if (dayRef) {
       console.log(
         dayRef.current[day].scrollIntoView({
