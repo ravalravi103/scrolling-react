@@ -9,6 +9,7 @@ const tempArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, , 10];
 var Element = Scroll.Element;
 function App() {
   console.log("Console Log Added in the App.jsx compome")
+  console.log("Console Log Added in the App.jsx compome")
   return (
     <div className="App">
       {/* <div style={{ position: "fixed", top: "0px", left: "300px" }}>
